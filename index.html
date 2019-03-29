@@ -1,0 +1,82 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>dclyman</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Assistant:700,400" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/-debug.css">
+		<link rel="stylesheet" href="css/reset.css">
+		
+	</head>
+
+	<body>
+		<header>
+			<img src="img/websitetopbanner.png" alt="D C Lyman"/>
+			<nav>
+				<a href="/about.html" class="active">ABOUT</a>
+				<a href="/journalismpage.html">JOURNALISM</a>
+				<a href="/creativepage.html" >CREATIVE</a>
+				<a href="/academicpage.html">RESEARCH</a>
+				<a href="www.linkedin.com/in/dclyman"><img id="linkedin" src="img/In-White-41px-R.png" alt="Linked In Logo"> LINKEDIN</a>
+			</nav>
+		</header>
+		
+		<main>
+			<div class=articlebox>
+				<article>
+					<h3>An Aspiring Writer.</h3>
+					<h4>BY: DYLAN LYMAN</h4><br>
+				</article>
+				<h4> - - - </h4>
+				<article>
+					<h3>A Web Designer Developed By the Internet.</h3>
+					<h4>BY: DYLAN LYMAN</h4>
+				</article>
+				<h4> - - - </h4>
+				<article>
+					<h3>I'm A Writer By Heart, But A Web Designer By Necessity.</h3>
+					<h4>BY: DYLAN LYMAN</h4>
+					<p>While many profess to be web dsesigners, I am not here to claim I am a virtuoso of web development. However, I do want to understand more, and use my already present knowledge of web development to augment my writing. I see wordsmithing in the 21st century as an embedded profession of the internet world. While, in the past, print media reigned above all else as an entry for an aspiring writer, today the web has become the newspaper, the television, and the silver screen all in one. So, understanding the platform in which my writing will reside is important to me.</p>
+				</article>
+				<h4> - - - </h4>
+			</div>
+		</main>
+		<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+		<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("topBtn").style.display = "block";
+			  } else {
+				document.getElementById("topBtn").style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0; // For Safari
+			  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>
+		<footer>
+			<div>
+				<a href="/about.html">ABOUT</a>
+				<a href="/journalismpage.html">JOURNALISM</a>
+				<a href="/creativepage.html" >CREATIVE</a>
+				<a href="/academicpage.html">RESEARCH</a>
+			</div>
+			<div>
+				<p>All works presented within this website are Copyright &#169;2019 Dylan Lyman. All rights reserved.</p>
+				<p>This website was designed by Dylan Lyman as a portfolio showcase of original works and ideas.</p>
+				<p>The LinkedIn "in" logo is a registered trademark of LinkedIn Corporation.</p>
+			</div>
+		</footer>
+	</body>
+	
+</html>
