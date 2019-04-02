@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+	
+	<head>
+		<meta charset="UTF-8">
+		<title>dclyman/journalism</title>
+		
+		<link href="https://fonts.googleapis.com/css?family=Crimson+Text:400,400i,600" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Assistant:700,400" rel="stylesheet"> 
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/-debug.css">
+		<link rel="stylesheet" href="css/reset.css">
+		
+	</head>
+
+	<body>
+		<header>
+			<img src="img/websitetopbanner.png" alt="D C Lyman"/>
+			<nav>
+				<a href="/index.html">ABOUT</a>
+				<a href="/journalism.html">JOURNALISM</a>
+				<a href="/creativepage.html">CREATIVE</a>
+				<a href="/academicpage.html" class="active">RESEARCH</a>
+				<a id="linked" href="https://www.linkedin.com/in/dclyman/"><img id="linkedin" src="img/In-White-41px-R.png" alt="Linked In Logo"> LINKEDIN</a>
+			</nav>
+			<div id="articlenav">
+				<h2>ARTICLES:</h2>
+				<a href="#arnhold">Arnhold Fellowship</a>
+			</div>
+		</header>
+		
+		<main>
+			<div class=articlebox>
+				<article id="concreteode">
+					<h3>Arnhold Undergraduate Research Fellowship</h3>
+					<h4>BY: DYLAN LYMAN</h4>
+					<p>Below is the presentation poster I made for my research project under the <a href="https://arnholdprogram.wordpress.com/"><span>Arnhold Undergraduate Research Fellowship</span></a>.</p>
+					<img class="articleimg" src="img/arnholdposter.png" alt="">
+					<h6>POSTER ABSTRACT</h6>
+					<p>This project examines the hypersexualism and male-centricism present within the visual novel Doki Doki Literature Club (2017). It aims to investigate how the horror aspect of the game challenges preconceptions about the genre, and furthermore bringing to like these issues it terms of player identity. The questions posed in this project are: How is the visual novel influence by Japanese pop culture? How does this affect Doki Doki’s story arch? Lastly, how do the creators of Doki Doki challenge other games’ ceonception of player character and identity. While some view this game as a homage to the visual novel canon such as <em>Clannad</em>, it actually shows a tendency to counter this genre’s tropes by destroying the very game world it is presented in. </p>
+				</article>
+				<h4> - - - </h4>
+			</div>
+		</main>
+		<button onclick="topFunction()" id="topBtn" title="Go to top">Top</button>
+		<script>
+			// When the user scrolls down 20px from the top of the document, show the button
+			window.onscroll = function() {scrollFunction()};
+
+			function scrollFunction() {
+			  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+				document.getElementById("topBtn").style.display = "block";
+			  } else {
+				document.getElementById("topBtn").style.display = "none";
+			  }
+			}
+
+			// When the user clicks on the button, scroll to the top of the document
+			function topFunction() {
+			  document.body.scrollTop = 0; // For Safari
+			  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+			}
+		</script>
+		<footer>
+			<div>
+				<a href="/index.html">ABOUT</a>
+				<a href="/index.html">JOURNALISM</a>
+				<a href="/creativepage.html" >CREATIVE</a>
+				<a href="/academicpage.html">RESEARCH</a>
+			</div>
+			<div>
+				<p>All works presented within this website are Copyright &#169;2019 Dylan Lyman. All rights reserved.</p>
+				<p>This website was designed by Dylan Lyman as a portfolio showcase of original works and ideas.</p>
+				<p>The LinkedIn "in" logo is a registered trademark of LinkedIn Corporation.</p>
+			</div>
+		</footer>
+	</body>
+	
+</html>

@@ -35,6 +35,13 @@ nav {
 	width: inherit;
 }
 
+@keyframes colorfade {
+	0% {color: #FF0000;}
+	33% {color: #0400FF}
+	66% {color: #FFF100;}
+	100% {color: #FF0000;}
+}
+
 nav > a {
 	display: inline-block;
 	color: darkgrey;
@@ -43,6 +50,13 @@ nav > a {
 	font-size: 0.8em;
 	font-family: 'assistant', sans-serif;
 	cursor: pointer;
+}
+
+#linked {
+	animation-name: colorfade;
+	animation-duration: 8s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 }
 
 a:hover {
@@ -60,6 +74,7 @@ a:hover {
 
 #articlenav {
 	padding: 10px 0 0 30px;
+	background-color: #F0F0F0;
 }
 
 #articlenav * {
@@ -105,6 +120,18 @@ article * {
 	
 }
 
+.articleimg {
+	padding: 5px;
+	border: solid #FF7800;
+	border-width: 1px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
 article > p > a {
 	text-decoration: underline;
 	color: #FF7800;
@@ -137,6 +164,19 @@ article > p {
 	padding: 0.8em 0 0.15in;
 	font-weight: 400;
 	font-size: 1em;
+}
+
+article > h5 {
+	font-weight: 400;
+	font-size: 1.2em;
+	text-align: center;
+}
+
+article > h6 {
+	font-family: 'assistant', sans-serif;
+	font-weight: 400;
+	text-align: center;
+	font-size: 0.8em;
 }
 
 .end {
